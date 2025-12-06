@@ -6,11 +6,11 @@ const StyledStat = styled.div`
   border: 1px solid var(--color-grey-100);
   border-radius: var(--border-radius-md);
 
-  padding: 1.6rem;
+  padding: 1rem;
   display: grid;
-  grid-template-columns: 6.4rem 1fr;
+  grid-template-columns: 5rem 1fr;
   grid-template-rows: auto auto;
-  column-gap: 1.6rem;
+  column-gap: 1rem;
   row-gap: 0.4rem;
 `;
 
@@ -42,7 +42,7 @@ const Title = styled.h5`
 `;
 
 const Value = styled.p`
-  font-size: 2.4rem;
+  font-size: 1.6rem;
   line-height: 1;
   font-weight: 500;
 `;
